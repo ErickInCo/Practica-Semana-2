@@ -1,2 +1,2 @@
-# Practica-Semana-2
+# Practica Semana 2
 Entregables de practicas HTML
