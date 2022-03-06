@@ -5,116 +5,141 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bunny Cakes Admin</title>
+    <link rel="stylesheet" href="..\styles\bootstrap.min.css">
 </head>
 
 <body>
-    <table>
-        <tr><td>Insumos disponibles</td></tr>
-        <tr>
-            <th>
-                <h2>Pasteles</h2>
+    <h1>Insumos disponibles</h1>
+    <div class="table-responsive">
+        <table class="table">
+        
+            <tr>
+                <th>
+                    <h2>Pasteles</h2>
+                    
+                </th>
                 
-            </th>
-            
-            <th>
-                <h2>Sabores</h2>
-            </th>
-            <th>
-                <h2>Adornos</h2>
+                <th>
+                    <h2>Sabores</h2>
+                </th>
+                <th>
+                    <h2>Adornos</h2>
+                    
+                </th>
                 
-            </th>
-            
-        </tr>
-        <tr>
-            <td>
-                <dl>
-                    <dt>Pastel Besos de Fresa</dt>
-                    <dd>3</dd>
-                    <dt>Pastel ALEMÁN</dt>
-                    <dd>4</dd>
-                    <dt>Pastel Mil Hojas</dt>
-                    <dd>1</dd>
-                    <dt>Pastel Capuchino</dt>
-                    <dd>0</dd>
-                    <dt>Pastel Tres Leches</dt>
-                    <dd>1</dd>
-                    <dt>Pastel Carlos V</dt>
-                    <dd>0</dd>
-                    <dt>Pastel de Zanahoria</dt>
-                    <dd>0</dd>
-                    <dt>Pastel Tres Chocolates</dt>
-                    <dd>5</dd>
-                    <dt>Pastel Red Velvet</dt>
-                    <dd>2</dd>
-                </dl>
-            </td>
-            <td>
-                <dl>
-                    <dt>Vainilla</dt>
-                    <dd>3 kg</dd>
-                    <dt>Chocolate</dt>
-                    <dd>5 kg</dd>
-                    <dt>Red Velvet</dt>
-                    <dd>3 kg</dd>
-                    <dt>Zanahoria</dt>
-                    <dd>4 kg</dd>
-                    <dt>Tres Leches</dt>
-                    <dd>1 kg</dd>
-                    <dt>Tres Chocolates</dt>
-                    <dd>1 kg</dd>
-                </dl>
-            </td>
-            <td>
-                <dl>
-                    <dt>Fresas</dt>
-                    <dd>2 kg</dd>
-                    <dt>Fondant</dt>
-                    <dd>5 kg</dd>
-                    <dt>Chispas</dt>
-                    <dd>500 g</dd>
-                    <dt>Nueces</dt>
-                    <dd>1 kg</dd>
-
-                </dl>
-            </td>
-        </tr>
-    </table>
+            </tr>
+            <tr>
+                <td>
+                    <dl>
+                        <dt>Pastel Besos de Fresa</dt>
+                        <dd>3</dd>
+                        <dt>Pastel ALEMÁN</dt>
+                        <dd>4</dd>
+                        <dt>Pastel Mil Hojas</dt>
+                        <dd>1</dd>
+                        <dt>Pastel Capuchino</dt>
+                        <dd>0</dd>
+                        <dt>Pastel Tres Leches</dt>
+                        <dd>1</dd>
+                        <dt>Pastel Carlos V</dt>
+                        <dd>0</dd>
+                        <dt>Pastel de Zanahoria</dt>
+                        <dd>0</dd>
+                        <dt>Pastel Tres Chocolates</dt>
+                        <dd>5</dd>
+                        <dt>Pastel Red Velvet</dt>
+                        <dd>2</dd>
+                    </dl>
+                </td>
+                <td>
+                    <dl>
+                        <dt>Vainilla</dt>
+                        <dd>3 kg</dd>
+                        <dt>Chocolate</dt>
+                        <dd>5 kg</dd>
+                        <dt>Red Velvet</dt>
+                        <dd>3 kg</dd>
+                        <dt>Zanahoria</dt>
+                        <dd>4 kg</dd>
+                        <dt>Tres Leches</dt>
+                        <dd>1 kg</dd>
+                        <dt>Tres Chocolates</dt>
+                        <dd>1 kg</dd>
+                    </dl>
+                </td>
+                <td>
+                    <dl>
+                        <dt>Fresas</dt>
+                        <dd>2 kg</dd>
+                        <dt>Fondant</dt>
+                        <dd>5 kg</dd>
+                        <dt>Chispas</dt>
+                        <dd>500 g</dd>
+                        <dt>Nueces</dt>
+                        <dd>1 kg</dd>
+    
+                    </dl>
+                </td>
+            </tr>
+        </table>
+    </div>
+    
     <br>
     <br>
     <section>
+        <h2>Pedidos</h2>
+        <div class="table-responsive">
+            <table class="table">
+                
+                <tr>
+                    <th>No. Pedido</th>
+                    <th>Datos Cliente</th>
+                    <th>Tipo de pastel</th>
+                    <th>Capas</th>
+                    <th>Sabor</th>
+                    <th>Adornos</th>
+                    <th>Descripcion adicional</th>
+                </tr>
+                <tr>
+                    <td>001</td>
+                    <td>
+                        <ul>
+                            <li>Erick Infante</li>
+                            <li>elerick96@gmail.com</li>
+                            <li>8342266772</li>
+                        </ul>
+                    </td>
+                    <td>Otro</td>
+                    <td>2</td>
+                    <td>
+                        <ul>
+                            <li>Vainilla</li>
+                            <li>Zanahoria</li>
+                        </ul>
+                    </td>
+                    <td>Fresas</td>
+                    <td>Poner feliz cumpleaños en el pastel</td>
+                </tr>
+                <tr>
+                    <td>002</td>
+                    <td>
+                        <ul>
+                            <li>Esmeralda Covarrubias</li>
+                            <li>esmeralda@gmail.com</li>
+                            <li>8342324534</li>
+                        </ul>
+                    </td>
+                    <td>Pastel Tres Leches</td>
+                    <td>.</td>
+                    <td>
+                        .
+                    </td>
+                    <td>Fresas y nueces</td>
+                    <td>Recien hecho</td>
+                </tr>
+            </table>
+        </div>
         
-        <table>
-            <thead>Pedidos</thead>
-            <tr>
-                <th>No. Pedido</th>
-                <th>Datos Cliente</th>
-                <th>Tipo de pastel</th>
-                <th>Capas</th>
-                <th>Sabor</th>
-                <th>Adornos</th>
-                <th>Descripcion adicional</th>
-            </tr>
-            <tr>
-                <td>001</td>
-                <td>
-                    <ul>
-                        <li>Erick Infante</li>
-                        <li>elerick96@gmail.com</li>
-                        <li>8342266772</li>
-                    </ul>
-                </td>
-                <td>Otro</td>
-                <td>2</td>
-                <td>
-                    <ul>
-                        <li>Vainilla</li>
-                        <li>Zanahoria</li>
-                    </ul>
-                </td>
-                <td>Fresas</td>
-                <td></td>
-            </tr>
-        </table>
     </section>
 
 
