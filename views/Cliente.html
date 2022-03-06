@@ -6,18 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bunny Cakes</title>
     <link rel="stylesheet" href="..\styles\login.css">
-    <style>
-        
-    </style>
+    <link rel="stylesheet" href="..\styles\bootstrap.min.css">
 </head>
 
 <body>
-
-    <h1>Bunny Cakes</h1>
+    <div class="table-responsive">
+        <table class="table">
+            <tr>
+                <td><h1>Bunny Cakes</h1></td>
+                <td><img src="..\assets\img\logo.png" ></td>
+                <td><button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button></td>
+            </tr>
+        </table>
+    </div>
+    
+    
     <h2>Pasteles esponjosos y llenos de magia</h2>
-    <img src="..\assets\img\logo.png" >
+    
     <br>
-    <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+    
 
     <div id="id01" class="modal">
     
@@ -59,82 +66,108 @@
     }
     </script>
     <br>
-    <table>
-        <tr>
-            <td>
-                <h2>Nuestros Pasteles</h2>
-                <dl>
-                    <dt>Pastel Besos de Fresa</dt>
-                    <dd>$270</dd>
-                    <dt>Pastel ALEMÁN</dt>
-                    <dd>$270</dd>
-                    <dt>Pastel Mil Hojas</dt>
-                    <dd>$290</dd>
-                    <dt>Pastel Capuchino</dt>
-                    <dd>$420</dd>
-                    <dt>Pastel Tres Leches</dt>
-                    <dd>$380</dd>
-                    <dt>Pastel Carlos V</dt>
-                    <dd>$430</dd>
-                    <dt>Pastel de Zanahoria</dt>
-                    <dd>$395</dd>
-                    <dt>Pastel Tres Chocolates</dt>
-                    <dd>$435</dd>
-                    <dt>Pastel Red Velvet</dt>
-                    <dd>$400</dd>
-                </dl>
-            </td>
-            <td><p>---------------------</p></td>
-            <td>
-                <h2>Nuestros Adornos</h2>
-                <dl>
-                    <dt>Fresas</dt>
-                    <dd>$50</dd>
-                    <dt>Fondant Liso</dt>
-                    <dd>$30</dd>
-                    <dt>Fondant con figuras</dt>
-                    <dd>$100</dd>
-                    <dt>Chispas</dt>
-                    <dd>$20</dd>
-                    <dt>Nueces</dt>
-                    <dd>$50</dd>
+    <div class="table-responsive">
 
-                </dl>
-            </td>
-        </tr>
-    </table>
+        <table class="table">
+            <tr>
+                <td>
+                    <h2>Nuestros Pasteles</h2>
+                    <dl>
+                        <dt>Pastel Besos de Fresa</dt>
+                        <dd>$270</dd>
+                        <dt>Pastel ALEMÁN</dt>
+                        <dd>$270</dd>
+                        <dt>Pastel Mil Hojas</dt>
+                        <dd>$290</dd>
+                        <dt>Pastel Capuchino</dt>
+                        <dd>$420</dd>
+                        <dt>Pastel Tres Leches</dt>
+                        <dd>$380</dd>
+                        <dt>Pastel Carlos V</dt>
+                        <dd>$430</dd>
+                        <dt>Pastel de Zanahoria</dt>
+                        <dd>$395</dd>
+                        <dt>Pastel Tres Chocolates</dt>
+                        <dd>$435</dd>
+                        <dt>Pastel Red Velvet</dt>
+                        <dd>$400</dd>
+                    </dl>
+                </td>
+                
+                <td>
+                    <h2>Nuestros Adornos</h2>
+                    <dl>
+                        <dt>Fresas</dt>
+                        <dd>$50</dd>
+                        <dt>Fondant Liso</dt>
+                        <dd>$30</dd>
+                        <dt>Fondant con figuras</dt>
+                        <dd>$100</dd>
+                        <dt>Chispas</dt>
+                        <dd>$20</dd>
+                        <dt>Nueces</dt>
+                        <dd>$50</dd>
+
+                    </dl>
+                </td>
+            </tr>
+        </table>
+    </div>
     
     <br>
-    <h2>Haga su pedido</h2>
-    <form>
+    <div class="table-responsive">
+        <h2>Haga su pedido</h2>
+    <form >
         <fieldset>
             <legend>Pedidos</legend>
-            <label for="Nombre">Nombre:</label>
-            <input type="text" id="nombre" name="nombre">
-            <br>
-            <label for="Telefono">Telefono:</label>
-            <input type="tel" id="Telefono" name="Telefono">
-            <br>
-            <label for="correo">Correo electronico:</label>
-            <input type="email" id="correo" name="correo">
-            <br>
-            
-            <label for="Pasteles">Selecciones uno de nuestros pasteles:</label>
-            <select id="Pasteles" name="Pasteles">
-                <option value="Pastel Besos de Fresa">Pastel Besos de Fresa</option>
-                <option value="Pastel ALEMÁN">Pastel ALEMÁN</option>
-                <option value="Pastel Mil Hojas">Pastel Mil Hojas</option>
-                <option value="Pastel Capuchino">Pastel Capuchino</option>
-                <option value="Pastel Tres Leches">Pastel Tres Leches</option>
-                <option value="Pastel Carlos V">Pastel Carlos V</option>
-                <option value="Pastel de Zanahoria">Pastel de Zanahoria</option>
-                <option value="Pastel Tres Chocolates">Pastel Tres Chocolates</option>
-                <option value="Pastel Red Velvet">Pastel Red Velvet</option>
-                <option value="Personalizado">Personalizado</option>
-            </select>
-            <br>
-            <br>
-            <table>
+            <table class="table">
+                <tr>
+                    <td>
+                        <label for="Nombre">Nombre:</label>
+                    </td>
+                    <td>
+                        <input type="text" id="nombre" name="nombre">
+                    </td>
+                    
+                </tr>
+                <tr>
+                    <td>
+                        <label for="Telefono">Telefono:</label>
+                    </td>
+                    <td>
+                        <input type="tel" id="Telefono" name="Telefono">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="correo">Correo electronico:</label>
+                    </td>
+                    <td>
+                        <input type="email" id="correo" name="correo">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="Pasteles">Selecciones uno de nuestros pasteles:</label>
+                    </td>
+                    <td>
+                        <select id="Pasteles" name="Pasteles">
+                            <option value="Pastel Besos de Fresa">Pastel Besos de Fresa</option>
+                            <option value="Pastel ALEMÁN">Pastel ALEMÁN</option>
+                            <option value="Pastel Mil Hojas">Pastel Mil Hojas</option>
+                            <option value="Pastel Capuchino">Pastel Capuchino</option>
+                            <option value="Pastel Tres Leches">Pastel Tres Leches</option>
+                            <option value="Pastel Carlos V">Pastel Carlos V</option>
+                            <option value="Pastel de Zanahoria">Pastel de Zanahoria</option>
+                            <option value="Pastel Tres Chocolates">Pastel Tres Chocolates</option>
+                            <option value="Pastel Red Velvet">Pastel Red Velvet</option>
+                            <option value="Personalizado">Personalizado</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+
+            <table class="table">
                 <tr>
                     <td>
                         <label for="Ncapas">Numero de capas en el pastel:</label>
@@ -180,10 +213,12 @@
             <label for="Descripcion">Descripcion:</label>
             <input type="text" id="des" name="des">
             <br>
-            <input type="submit">
+            <input type="submit" class="submit">
         </fieldset>
         
     </form>
+    </div>
+    
     <br>
     <h2>Conocenos</h2>
     <p>Nos encontramos en Jesús Elías Piña 525, Las Adelitas, 87049 Cd Victoria, Tamps.</p>
